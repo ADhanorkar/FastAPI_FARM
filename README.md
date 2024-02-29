@@ -7,7 +7,8 @@ steps to start backend server
 
 1. Go to backend dir - cd backend
 2. Run Command: sudo pipenv shell
-3. Run Command: uvicorn main:app --reload
+3. Only first time to install dependency in requirements.txt, Run Command: pipenv install -r requirements.txt 
+4. Run Command: uvicorn main:app --reload
 
 # Getting Started with frontend
 
